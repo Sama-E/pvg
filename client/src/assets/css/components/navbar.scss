@@ -1,0 +1,64 @@
+.navbar{
+  display: flex;
+  justify-content: center;
+
+  .container{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+
+    .logo{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      .title{
+        font-size: 34px;
+        font-weight: bold;
+        color: blue;
+      }
+      .text{
+        color: gray;
+      }
+    }
+
+    .desktopNav{
+      display: flex;
+      gap: 24px;
+      align-items: center;
+      font-weight: 500;
+    }
+
+    .mobileNav{
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      height: 100%;
+      z-index: 10;
+      width: 100%;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+
+      .closeButton{
+        position: fixed;
+        top: 28px;
+        right: 8px; 
+      }
+
+      ul{
+        padding: 25px;
+        list-style-type: none;
+      }
+      
+      .mobileMenu{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+      }
+    }
+  }
+}
