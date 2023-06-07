@@ -1,8 +1,11 @@
 import "/src/assets/css/pages/landing.scss";
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import CountCard from "../components/cards/CountCard";
+
 
 const Landing = () => {
+
   return (
     <div className="landing">
       <div className="backgroundImage">
@@ -11,6 +14,8 @@ const Landing = () => {
           Invest with Serenity ...
         </div>
       </div>
+      <CountCard />
+
         <Footer />
     </div>
   )
