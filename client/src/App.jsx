@@ -2,7 +2,7 @@ import "/src/assets/css/app.scss";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
+import Landing from "./pages/Landing";
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home />
+      element: <Landing />
     },
     {
       path: "/",

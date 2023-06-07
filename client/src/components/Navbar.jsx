@@ -18,9 +18,6 @@ const Navbar = () => {
           <div className="title">
             PVG
           </div>
-          <div className="text">
-          Asset Management
-          </div>
         </div>
         
         {/* DESKTOP NAV */}

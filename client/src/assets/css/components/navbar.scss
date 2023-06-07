@@ -7,7 +7,6 @@
     width: 1000px;
     display: flex;
     justify-content: space-between;
-    padding: 20px 0px;
 
     .logo{
       display: flex;
@@ -33,11 +32,11 @@
 
     .mobileNav{
       position: fixed;
+      top: 0;
       right: 0;
-      bottom: 0;
-      height: 100%;
-      z-index: 10;
+      height: 25%;
       width: 100%;
+      z-index: 1;
       background-color: white;
       display: flex;
       flex-direction: column;
