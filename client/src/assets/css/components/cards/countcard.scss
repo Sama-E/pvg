@@ -1,13 +1,13 @@
 .countcard{
   display: flex;
   align-items: center;
-  padding:20px;
-  justify-content: space-evenly;
-  gap:20px;
+  padding: 100px;
+  justify-content:center;
+  gap:100px;
 
   .card{
     border: 1px solid rgb(232, 231, 231);
-    padding: 75px 50px;
+    padding: 75px 75px;
     align-items: center;
     background-color: lightgray;
 
