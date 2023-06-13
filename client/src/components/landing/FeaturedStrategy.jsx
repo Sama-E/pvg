@@ -1,4 +1,4 @@
-import "/src/assets/css/components/featuredstrategy.scss";
+import "/src/assets/css/components/landing/featuredstrategy.scss";
 
 const strategyVideo = "https://youtu.be/7IkvGFp7gLc";
 
