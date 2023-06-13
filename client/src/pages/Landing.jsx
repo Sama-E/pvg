@@ -24,7 +24,7 @@ const Landing = () => {
       </div>
       <CountCard />
 
-        <Footer />
+      <Footer />
     </div>
   )
 }
