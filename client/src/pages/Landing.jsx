@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import CountCard from "../components/cards/CountCard";
 import Waves from "/video/wavescrashing30fps.mp4";
 import FeaturedStrategy from "../components/landing/FeaturedStrategy";
+import OurStrategies from "../components/landing/OurStrategies";
 
 
 const Landing = () => {
@@ -25,6 +26,7 @@ const Landing = () => {
       </div>
       <CountCard />
       <FeaturedStrategy />
+      <OurStrategies />
 
       <Footer />
     </div>
